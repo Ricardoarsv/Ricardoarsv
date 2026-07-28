@@ -1,0 +1,589 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1006.2 161.5" width="1006" height="162">
+<rect x="0" y="0" width="1006.2" height="161.5" rx="12" fill="#1a1b27"/>
+<g transform="translate(24.0,18) scale(0.42)"><title id="ir-t">Iron rank emblem</title>
+  <defs>
+    <linearGradient id="ir-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#9A9A9A"/>
+      <stop offset="0.42" stop-color="#6B6B6B"/>
+      <stop offset="1" stop-color="#2E2E2E"/>
+    </linearGradient>
+    <linearGradient id="ir-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4A4A4A"/>
+      <stop offset="1" stop-color="#242424"/>
+    </linearGradient>
+    <linearGradient id="ir-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B0B0B0"/>
+      <stop offset="1" stop-color="#6B6B6B"/>
+    </linearGradient>
+    <radialGradient id="ir-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6B6B6B" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#6B6B6B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- aura: barely present. Iron is unfinished ore, it does not glow. -->
+  <circle cx="128" cy="128" r="112" fill="url(#ir-aura)"/>
+
+  <!-- shield silhouette, deliberately blunt and slightly asymmetric (rough casting) -->
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#ir-plate)" stroke="#1C1C1C" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- chipped edges: notches cut out of the rim, the tier's material story -->
+  <path d="M65 96 L78 104 L65 112 Z" fill="#1C1C1C" opacity="0.85"/>
+  <path d="M191 120 L178 128 L191 136 Z" fill="#1C1C1C" opacity="0.85"/>
+  <path d="M128 210 L120 198 L136 198 Z" fill="#1C1C1C" opacity="0.6"/>
+
+  <!-- inner recessed plate -->
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#ir-inner)" stroke="#151515" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- top bevel highlight: one light source, upper left -->
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#8E8E8E" opacity="0.55"/>
+
+  <!-- the barbell mark: Rival's constant across all eight tiers -->
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#ir-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#ir-bar)" stroke="#1C1C1C" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#ir-bar)" stroke="#1C1C1C" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#5A5A5A" stroke="#1C1C1C" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#5A5A5A" stroke="#1C1C1C" stroke-width="2"/>
+  </g>
+
+  <!-- rivets: forged, functional, no ornament -->
+  <circle cx="98" cy="100" r="4" fill="#333" stroke="#8E8E8E" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#333" stroke="#8E8E8E" stroke-width="1.5"/>
+
+  <!-- division plinth: unlit slots. division-N.svg overlays light these. -->
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#242424" stroke="#4A4A4A" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#242424" stroke="#4A4A4A" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#242424" stroke="#4A4A4A" stroke-width="2"/>
+  </g>
+</g><text x="77.8" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Iron</text><g transform="translate(145.5,18) scale(0.42)"><title id="br-t">Bronze rank emblem</title>
+  <defs>
+    <linearGradient id="br-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#E9A85F"/>
+      <stop offset="0.42" stop-color="#CD7F32"/>
+      <stop offset="1" stop-color="#5E3A14"/>
+    </linearGradient>
+    <linearGradient id="br-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A4A1C"/>
+      <stop offset="1" stop-color="#33200C"/>
+    </linearGradient>
+    <linearGradient id="br-wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CD7F32"/>
+      <stop offset="1" stop-color="#6E4318"/>
+    </linearGradient>
+    <linearGradient id="br-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0BC7E"/>
+      <stop offset="1" stop-color="#A8621F"/>
+    </linearGradient>
+    <radialGradient id="br-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#CD7F32" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#CD7F32" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="114" fill="url(#br-aura)"/>
+
+  <!-- first ornament of the ladder: stubby cast flanges either side -->
+  <g stroke="#3A2410" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 100 L34 112 L44 132 L65 130 Z" fill="url(#br-wing)"/>
+    <path d="M191 100 L222 112 L212 132 L191 130 Z" fill="url(#br-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#br-plate)" stroke="#3A2410" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- cast-metal pitting: the material story is "poured, not machined" -->
+  <circle cx="86" cy="128" r="3" fill="#5E3A14" opacity="0.55"/>
+  <circle cx="171" cy="112" r="2.5" fill="#5E3A14" opacity="0.5"/>
+  <circle cx="112" cy="196" r="2.5" fill="#5E3A14" opacity="0.45"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#br-inner)" stroke="#2A1A08" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#E9A85F" opacity="0.5"/>
+
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#br-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#br-bar)" stroke="#3A2410" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#br-bar)" stroke="#3A2410" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#A8621F" stroke="#3A2410" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#A8621F" stroke="#3A2410" stroke-width="2"/>
+  </g>
+
+  <!-- apex notch: the first hint of a crown, four tiers before it becomes one -->
+  <path d="M128 46 L138 62 L128 70 L118 62 Z" fill="#E9A85F" stroke="#3A2410" stroke-width="3" stroke-linejoin="round"/>
+
+  <circle cx="98" cy="100" r="4" fill="#33200C" stroke="#E9A85F" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#33200C" stroke="#E9A85F" stroke-width="1.5"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#33200C" stroke="#6E4318" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#33200C" stroke="#6E4318" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#33200C" stroke="#6E4318" stroke-width="2"/>
+  </g>
+</g><text x="199.3" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Bronze</text><g transform="translate(267.0,18) scale(0.42)"><title id="si-t">Silver rank emblem</title>
+  <defs>
+    <linearGradient id="si-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#F4F6F8"/>
+      <stop offset="0.38" stop-color="#C0C0C0"/>
+      <stop offset="0.72" stop-color="#8A8F95"/>
+      <stop offset="1" stop-color="#4A4F55"/>
+    </linearGradient>
+    <linearGradient id="si-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6F7378"/>
+      <stop offset="1" stop-color="#2C3034"/>
+    </linearGradient>
+    <linearGradient id="si-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#E4E8EC"/>
+      <stop offset="1" stop-color="#6F7378"/>
+    </linearGradient>
+    <linearGradient id="si-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9AA0A6"/>
+    </linearGradient>
+    <radialGradient id="si-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C0C0C0" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#C0C0C0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="116" fill="url(#si-aura)"/>
+
+  <!-- swept wings: two polished blades per side. Symmetry is Silver's material story. -->
+  <g stroke="#33383D" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 92 L26 98 L40 118 L65 116 Z" fill="url(#si-wing)"/>
+    <path d="M65 122 L34 134 L46 150 L65 144 Z" fill="url(#si-wing)"/>
+    <path d="M191 92 L230 98 L216 118 L191 116 Z" fill="url(#si-wing)"/>
+    <path d="M191 122 L222 134 L210 150 L191 144 Z" fill="url(#si-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#si-plate)" stroke="#33383D" stroke-width="5" stroke-linejoin="round"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#si-inner)" stroke="#22262A" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- polish streak: a machined finish, unlike Bronze's pitting -->
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#FFFFFF" opacity="0.62"/>
+  <path d="M92 150 L128 170 L164 150 L164 156 L128 177 L92 156 Z" fill="#FFFFFF" opacity="0.18"/>
+
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#si-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#si-bar)" stroke="#33383D" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#si-bar)" stroke="#33383D" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#9AA0A6" stroke="#33383D" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#9AA0A6" stroke="#33383D" stroke-width="2"/>
+  </g>
+
+  <!-- apex: a defined point, no longer a notch -->
+  <path d="M128 34 L142 60 L128 72 L114 60 Z" fill="url(#si-plate)" stroke="#33383D" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <circle cx="98" cy="100" r="4" fill="#2C3034" stroke="#E4E8EC" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#2C3034" stroke="#E4E8EC" stroke-width="1.5"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#2C3034" stroke="#6F7378" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#2C3034" stroke="#6F7378" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#2C3034" stroke="#6F7378" stroke-width="2"/>
+  </g>
+</g><text x="320.8" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Silver</text><g transform="translate(388.6,18) scale(0.42)"><title id="go-t">Gold rank emblem</title>
+  <defs>
+    <linearGradient id="go-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFF1A8"/>
+      <stop offset="0.34" stop-color="#FFD700"/>
+      <stop offset="0.70" stop-color="#C79A05"/>
+      <stop offset="1" stop-color="#6B5200"/>
+    </linearGradient>
+    <linearGradient id="go-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A5F00"/>
+      <stop offset="1" stop-color="#2E2400"/>
+    </linearGradient>
+    <linearGradient id="go-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#FFE87A"/>
+      <stop offset="1" stop-color="#8A6A00"/>
+    </linearGradient>
+    <linearGradient id="go-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6C8"/>
+      <stop offset="1" stop-color="#D6A800"/>
+    </linearGradient>
+    <radialGradient id="go-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD700" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="118" fill="url(#go-aura)"/>
+
+  <!-- three blades per side, and the first laurel curl: Gold is where ornament arrives -->
+  <g stroke="#4A3800" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 86 L20 90 L36 110 L65 110 Z" fill="url(#go-wing)"/>
+    <path d="M65 116 L26 126 L40 144 L65 138 Z" fill="url(#go-wing)"/>
+    <path d="M65 146 L38 158 L50 172 L65 164 Z" fill="url(#go-wing)"/>
+    <path d="M191 86 L236 90 L220 110 L191 110 Z" fill="url(#go-wing)"/>
+    <path d="M191 116 L230 126 L216 144 L191 138 Z" fill="url(#go-wing)"/>
+    <path d="M191 146 L218 158 L206 172 L191 164 Z" fill="url(#go-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#go-plate)" stroke="#4A3800" stroke-width="5" stroke-linejoin="round"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#go-inner)" stroke="#241C00" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- engraved laurel: struck into the plate, not floating on it -->
+  <path d="M96 156 Q106 170 118 178" fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  <path d="M160 156 Q150 170 138 178" fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  <path d="M99 162 L92 158 M105 170 L98 168 M112 176 L106 176" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M157 162 L164 158 M151 170 L158 168 M144 176 L150 176" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#FFF7D0" opacity="0.60"/>
+
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#go-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#go-bar)" stroke="#4A3800" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#go-bar)" stroke="#4A3800" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#D6A800" stroke="#4A3800" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#D6A800" stroke="#4A3800" stroke-width="2"/>
+  </g>
+
+  <!-- crest point with shoulder wings -->
+  <path d="M128 28 L144 58 L128 72 L112 58 Z" fill="url(#go-plate)" stroke="#4A3800" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M112 58 L96 52 L104 66 Z" fill="url(#go-wing)" stroke="#4A3800" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M144 58 L160 52 L152 66 Z" fill="url(#go-wing)" stroke="#4A3800" stroke-width="3" stroke-linejoin="round"/>
+
+  <circle cx="98" cy="100" r="4" fill="#2E2400" stroke="#FFE87A" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#2E2400" stroke="#FFE87A" stroke-width="1.5"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#2E2400" stroke="#8A6A00" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#2E2400" stroke="#8A6A00" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#2E2400" stroke="#8A6A00" stroke-width="2"/>
+  </g>
+</g><text x="442.3" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Gold</text><g transform="translate(510.1,18) scale(0.42)"><title id="pl-t">Platinum rank emblem</title>
+  <defs>
+    <linearGradient id="pl-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#C6FBFC"/>
+      <stop offset="0.34" stop-color="#00CED1"/>
+      <stop offset="0.72" stop-color="#0B8E96"/>
+      <stop offset="1" stop-color="#03454C"/>
+    </linearGradient>
+    <linearGradient id="pl-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07555C"/>
+      <stop offset="1" stop-color="#02252A"/>
+    </linearGradient>
+    <linearGradient id="pl-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#9BF6F8"/>
+      <stop offset="1" stop-color="#045F68"/>
+    </linearGradient>
+    <linearGradient id="pl-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DDFDFE"/>
+      <stop offset="1" stop-color="#12A8AE"/>
+    </linearGradient>
+    <radialGradient id="pl-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00CED1" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#00CED1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="120" fill="url(#pl-aura)"/>
+
+  <!-- the material changes: metal becomes mineral. Wings are angular shards, not blades. -->
+  <g stroke="#02343A" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 82 L16 84 L30 104 L65 106 Z" fill="url(#pl-wing)"/>
+    <path d="M65 112 L22 120 L38 140 L65 134 Z" fill="url(#pl-wing)"/>
+    <path d="M65 142 L34 154 L48 170 L65 162 Z" fill="url(#pl-wing)"/>
+    <path d="M191 82 L240 84 L226 104 L191 106 Z" fill="url(#pl-wing)"/>
+    <path d="M191 112 L234 120 L218 140 L191 134 Z" fill="url(#pl-wing)"/>
+    <path d="M191 142 L222 154 L208 170 L191 162 Z" fill="url(#pl-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#pl-plate)" stroke="#02343A" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- facet lines: the plate reads as cut crystal, catching one light source -->
+  <g stroke="#DDFDFE" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M128 46 L128 210"/>
+    <path d="M65 79 L128 128 L191 79"/>
+    <path d="M65 146 L128 128 L191 146"/>
+  </g>
+  <path d="M128 46 L191 79 L128 128 Z" fill="#DDFDFE" opacity="0.16"/>
+  <path d="M65 146 L128 128 L128 210 Z" fill="#02252A" opacity="0.22"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#pl-inner)" stroke="#01191D" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#DDFDFE" opacity="0.55"/>
+
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#pl-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#pl-bar)" stroke="#02343A" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#pl-bar)" stroke="#02343A" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#12A8AE" stroke="#02343A" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#12A8AE" stroke="#02343A" stroke-width="2"/>
+  </g>
+
+  <!-- apex spike: taller, sharper, with two counter-shards -->
+  <path d="M128 20 L146 56 L128 72 L110 56 Z" fill="url(#pl-plate)" stroke="#02343A" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M110 56 L90 46 L100 64 Z" fill="url(#pl-wing)" stroke="#02343A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M146 56 L166 46 L156 64 Z" fill="url(#pl-wing)" stroke="#02343A" stroke-width="3" stroke-linejoin="round"/>
+
+  <circle cx="98" cy="100" r="4" fill="#02252A" stroke="#9BF6F8" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#02252A" stroke="#9BF6F8" stroke-width="1.5"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#02252A" stroke="#045F68" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#02252A" stroke="#045F68" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#02252A" stroke="#045F68" stroke-width="2"/>
+  </g>
+</g><text x="563.8" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Platinum</text><g transform="translate(631.6,18) scale(0.42)"><title id="di-t">Diamond rank emblem</title>
+  <defs>
+    <linearGradient id="di-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#F4FEFF"/>
+      <stop offset="0.32" stop-color="#B9F2FF"/>
+      <stop offset="0.68" stop-color="#5FAFC9"/>
+      <stop offset="1" stop-color="#1E4C5E"/>
+    </linearGradient>
+    <linearGradient id="di-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E6C84"/>
+      <stop offset="1" stop-color="#0D2833"/>
+    </linearGradient>
+    <linearGradient id="di-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#EAFCFF"/>
+      <stop offset="1" stop-color="#3A8CA8"/>
+    </linearGradient>
+    <linearGradient id="di-gem" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#B9F2FF"/>
+      <stop offset="1" stop-color="#4E9CB8"/>
+    </linearGradient>
+    <radialGradient id="di-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#B9F2FF" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#B9F2FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="122" fill="url(#di-aura)"/>
+
+  <!-- four shards per side: the widest silhouette so far -->
+  <g stroke="#123644" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 78 L12 78 L26 98 L65 102 Z" fill="url(#di-wing)"/>
+    <path d="M65 108 L18 114 L34 134 L65 130 Z" fill="url(#di-wing)"/>
+    <path d="M65 138 L28 148 L44 166 L65 158 Z" fill="url(#di-wing)"/>
+    <path d="M65 166 L44 178 L58 190 L70 180 Z" fill="url(#di-wing)"/>
+    <path d="M191 78 L244 78 L230 98 L191 102 Z" fill="url(#di-wing)"/>
+    <path d="M191 108 L238 114 L222 134 L191 130 Z" fill="url(#di-wing)"/>
+    <path d="M191 138 L228 148 L212 166 L191 158 Z" fill="url(#di-wing)"/>
+    <path d="M191 166 L212 178 L198 190 L186 180 Z" fill="url(#di-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#di-plate)" stroke="#123644" stroke-width="5" stroke-linejoin="round"/>
+
+  <g stroke="#FFFFFF" stroke-width="2" opacity="0.45" fill="none">
+    <path d="M65 79 L128 118 L191 79"/>
+    <path d="M92 168 L128 118 L164 168"/>
+  </g>
+  <path d="M128 46 L191 79 L128 118 Z" fill="#FFFFFF" opacity="0.20"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#di-inner)" stroke="#08202A" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- the gem core: Diamond is the tier where the crest grows a heart -->
+  <g>
+    <path d="M128 100 L156 124 L128 166 L100 124 Z" fill="url(#di-gem)" stroke="#123644" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M100 124 L128 124 L128 166 Z" fill="#2E6C84" opacity="0.45"/>
+    <path d="M128 100 L128 124 L156 124 Z" fill="#FFFFFF" opacity="0.55"/>
+    <path d="M100 124 L156 124" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- the barbell rides in front of the gem, smaller: the mark is never lost -->
+  <g>
+    <rect x="106" y="128" width="44" height="7" rx="2" fill="#F4FEFF"/>
+    <rect x="97" y="118" width="10" height="28" rx="3" fill="#EAFCFF" stroke="#123644" stroke-width="2.5"/>
+    <rect x="149" y="118" width="10" height="28" rx="3" fill="#EAFCFF" stroke="#123644" stroke-width="2.5"/>
+  </g>
+
+  <path d="M128 14 L148 54 L128 72 L108 54 Z" fill="url(#di-plate)" stroke="#123644" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M108 54 L84 42 L96 62 Z" fill="url(#di-wing)" stroke="#123644" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M148 54 L172 42 L160 62 Z" fill="url(#di-wing)" stroke="#123644" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M128 30 L136 46 L128 54 L120 46 Z" fill="#FFFFFF" opacity="0.8"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#0D2833" stroke="#3A8CA8" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#0D2833" stroke="#3A8CA8" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#0D2833" stroke="#3A8CA8" stroke-width="2"/>
+  </g>
+</g><text x="685.4" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Diamond</text><g transform="translate(753.1,18) scale(0.42)"><title id="im-t">Immortal rank emblem</title>
+  <defs>
+    <linearGradient id="im-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFB3BA"/>
+      <stop offset="0.30" stop-color="#FF4655"/>
+      <stop offset="0.70" stop-color="#A81828"/>
+      <stop offset="1" stop-color="#4A0810"/>
+    </linearGradient>
+    <linearGradient id="im-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5E0D18"/>
+      <stop offset="1" stop-color="#1E0206"/>
+    </linearGradient>
+    <linearGradient id="im-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#FF9AA3"/>
+      <stop offset="1" stop-color="#7A121F"/>
+    </linearGradient>
+    <linearGradient id="im-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD4D8"/>
+      <stop offset="1" stop-color="#D62638"/>
+    </linearGradient>
+    <radialGradient id="im-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF4655" stop-opacity="0.46"/>
+      <stop offset="0.6" stop-color="#FF4655" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FF4655" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="124" fill="url(#im-aura)"/>
+
+  <!-- the silhouette turns hostile: barbed, swept back, asymmetric tips -->
+  <g stroke="#380509" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 74 L8 68 L20 92 L65 98 Z" fill="url(#im-wing)"/>
+    <path d="M65 104 L12 108 L30 130 L65 126 Z" fill="url(#im-wing)"/>
+    <path d="M65 134 L22 146 L42 164 L65 154 Z" fill="url(#im-wing)"/>
+    <path d="M65 162 L38 180 L58 192 L72 176 Z" fill="url(#im-wing)"/>
+    <path d="M191 74 L248 68 L236 92 L191 98 Z" fill="url(#im-wing)"/>
+    <path d="M191 104 L244 108 L226 130 L191 126 Z" fill="url(#im-wing)"/>
+    <path d="M191 134 L234 146 L214 164 L191 154 Z" fill="url(#im-wing)"/>
+    <path d="M191 162 L218 180 L198 192 L184 176 Z" fill="url(#im-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#im-plate)" stroke="#380509" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- fracture lines: the plate is scarred, and the scars glow -->
+  <g stroke="#FFB3BA" stroke-width="2.5" fill="none" opacity="0.75" stroke-linecap="round">
+    <path d="M96 82 L112 118 L92 140 L108 176"/>
+    <path d="M160 82 L146 116 L166 138 L150 174"/>
+  </g>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#im-inner)" stroke="#160104" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M128 74 L168 95 L168 104 L128 84 L88 104 L88 95 Z" fill="#FFD4D8" opacity="0.45"/>
+
+  <g>
+    <rect x="103" y="127" width="50" height="9" rx="2" fill="url(#im-bar)"/>
+    <rect x="93" y="114" width="12" height="35" rx="3" fill="url(#im-bar)" stroke="#380509" stroke-width="2.5"/>
+    <rect x="151" y="114" width="12" height="35" rx="3" fill="url(#im-bar)" stroke="#380509" stroke-width="2.5"/>
+    <rect x="86" y="123" width="6" height="17" rx="2" fill="#D62638" stroke="#380509" stroke-width="2"/>
+    <rect x="164" y="123" width="6" height="17" rx="2" fill="#D62638" stroke="#380509" stroke-width="2"/>
+  </g>
+
+  <!-- horned apex: the crown that is not yet a crown -->
+  <path d="M128 12 L148 52 L128 72 L108 52 Z" fill="url(#im-plate)" stroke="#380509" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M108 52 L78 30 L86 58 Z" fill="url(#im-wing)" stroke="#380509" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M148 52 L178 30 L170 58 Z" fill="url(#im-wing)" stroke="#380509" stroke-width="3" stroke-linejoin="round"/>
+
+  <circle cx="98" cy="100" r="4" fill="#1E0206" stroke="#FF9AA3" stroke-width="1.5"/>
+  <circle cx="158" cy="100" r="4" fill="#1E0206" stroke="#FF9AA3" stroke-width="1.5"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#1E0206" stroke="#7A121F" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#1E0206" stroke="#7A121F" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#1E0206" stroke="#7A121F" stroke-width="2"/>
+  </g>
+</g><text x="806.9" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Immortal</text><g transform="translate(874.6,18) scale(0.42)"><title id="ra-t">Radiant rank emblem</title>
+  <defs>
+    <linearGradient id="ra-plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFF0CE"/>
+      <stop offset="0.30" stop-color="#FFBD45"/>
+      <stop offset="0.68" stop-color="#C87E12"/>
+      <stop offset="1" stop-color="#5E3400"/>
+    </linearGradient>
+    <linearGradient id="ra-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A4A05"/>
+      <stop offset="1" stop-color="#2A1600"/>
+    </linearGradient>
+    <linearGradient id="ra-wing" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#FFE9B0"/>
+      <stop offset="1" stop-color="#8A4F00"/>
+    </linearGradient>
+    <linearGradient id="ra-gem" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#FFE9B0"/>
+      <stop offset="1" stop-color="#E09A20"/>
+    </linearGradient>
+    <radialGradient id="ra-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFBD45" stop-opacity="0.52"/>
+      <stop offset="0.55" stop-color="#FFBD45" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFBD45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="128" fill="url(#ra-aura)"/>
+
+  <!-- corona: the only tier that emits light rather than reflecting it -->
+  <g fill="#FFBD45" opacity="0.34">
+    <path d="M128 0 L134 30 L122 30 Z"/>
+    <path d="M128 256 L134 226 L122 226 Z"/>
+    <path d="M0 128 L30 122 L30 134 Z"/>
+    <path d="M256 128 L226 122 L226 134 Z"/>
+    <path d="M37 37 L62 55 L55 62 Z"/>
+    <path d="M219 37 L194 55 L201 62 Z"/>
+    <path d="M37 219 L62 201 L55 194 Z"/>
+    <path d="M219 219 L194 201 L201 194 Z"/>
+  </g>
+
+  <!-- full four-blade spread, the widest silhouette in the ladder -->
+  <g stroke="#3E2200" stroke-width="4" stroke-linejoin="round">
+    <path d="M65 72 L6 64 L18 90 L65 96 Z" fill="url(#ra-wing)"/>
+    <path d="M65 102 L10 106 L28 128 L65 124 Z" fill="url(#ra-wing)"/>
+    <path d="M65 132 L20 144 L40 164 L65 152 Z" fill="url(#ra-wing)"/>
+    <path d="M65 160 L36 180 L56 194 L72 176 Z" fill="url(#ra-wing)"/>
+    <path d="M191 72 L250 64 L238 90 L191 96 Z" fill="url(#ra-wing)"/>
+    <path d="M191 102 L246 106 L228 128 L191 124 Z" fill="url(#ra-wing)"/>
+    <path d="M191 132 L236 144 L216 164 L191 152 Z" fill="url(#ra-wing)"/>
+    <path d="M191 160 L220 180 L200 194 L184 176 Z" fill="url(#ra-wing)"/>
+  </g>
+
+  <path d="M128 46 L191 79 L191 146 Q191 177 128 210 Q65 177 65 146 L65 79 Z"
+        fill="url(#ra-plate)" stroke="#3E2200" stroke-width="5" stroke-linejoin="round"/>
+
+  <g stroke="#FFF0CE" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M65 79 L128 116 L191 79"/>
+    <path d="M90 170 L128 116 L166 170"/>
+  </g>
+  <path d="M128 46 L191 79 L128 116 Z" fill="#FFFFFF" opacity="0.22"/>
+
+  <path d="M128 68 L174 92 L174 143 Q174 165 128 189 Q82 165 82 143 L82 92 Z"
+        fill="url(#ra-inner)" stroke="#1E0F00" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- gem core, larger than Diamond's: the ladder's final object -->
+  <g>
+    <path d="M128 96 L158 122 L128 168 L98 122 Z" fill="url(#ra-gem)" stroke="#3E2200" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M98 122 L128 122 L128 168 Z" fill="#8A4F00" opacity="0.40"/>
+    <path d="M128 96 L128 122 L158 122 Z" fill="#FFFFFF" opacity="0.60"/>
+    <path d="M98 122 L158 122" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+  </g>
+
+  <g>
+    <rect x="106" y="128" width="44" height="7" rx="2" fill="#FFF8E4"/>
+    <rect x="97" y="118" width="10" height="28" rx="3" fill="#FFE9B0" stroke="#3E2200" stroke-width="2.5"/>
+    <rect x="149" y="118" width="10" height="28" rx="3" fill="#FFE9B0" stroke="#3E2200" stroke-width="2.5"/>
+  </g>
+
+  <!-- the crown: five points, the only literal crown in the ladder -->
+  <g stroke="#3E2200" stroke-width="3.5" stroke-linejoin="round" fill="url(#ra-plate)">
+    <path d="M84 60 L84 26 L100 44 L114 18 L128 40 L142 18 L156 44 L172 26 L172 60 Z"/>
+  </g>
+  <circle cx="114" cy="30" r="4.5" fill="#FFF0CE" stroke="#3E2200" stroke-width="2"/>
+  <circle cx="142" cy="30" r="4.5" fill="#FFF0CE" stroke="#3E2200" stroke-width="2"/>
+  <circle cx="128" cy="52" r="5" fill="#FFFFFF" stroke="#3E2200" stroke-width="2"/>
+
+  <g opacity="0.9">
+    <path d="M104 226 L110 220 L116 226 L110 232 Z" fill="#2A1600" stroke="#8A4F00" stroke-width="2"/>
+    <path d="M122 226 L128 220 L134 226 L128 232 Z" fill="#2A1600" stroke="#8A4F00" stroke-width="2"/>
+    <path d="M140 226 L146 220 L152 226 L146 232 Z" fill="#2A1600" stroke="#8A4F00" stroke-width="2"/>
+  </g>
+</g><text x="928.4" y="143.51999999999998" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c8d3f5">Radiant</text>
+</svg>
