@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=220&section=header&text=Ricardo%20Villanueva&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%7C%20AI%20Multiagent%20Systems&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/Ricardoarsv">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Engineer+%7C+React+%2F+Next.js+%2F+NestJS;Building+AI+multiagent+systems+on+GCP+%26+AWS;Product+Owner+%40+GUNDO+Health+and+Food;Remote+%7C+LATAM+%7C+Cucuta%2C+Colombia&font=Fira+Code&center=true&width=650&height=45&color=58A6FF&vCenter=true&size=22"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Engineer+%7C+3%2B+years+of+experience;React+%2F+Next.js+%2F+NestJS+%2F+React+Native;Building+AI+products%3A+AR%2C+computer+vision%2C+multiagent+systems;Product+Owner+%40+GUNDO+Health+and+Food+%7C+Remote+%7C+LATAM&font=Fira+Code&center=true&width=650&height=45&color=58A6FF&vCenter=true&size=20"/>
 </a>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ricardoarsv-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardoarsv)
@@ -16,7 +16,7 @@
 
 ### About me
 
-Full-Stack Engineer with two years leading product at **GUNDO Health and Food** (Spain, remote) — building an AI multiagent engine in production on **Google Cloud** and **AWS**, plus the web and mobile apps (React, Next.js, React Native) on top of it. I combine end-to-end engineering, applied AI, and product ownership. Currently looking for remote full-stack roles with impact across LATAM.
+Full-Stack Engineer with **3+ years of experience** building production software end to end. Currently Product Owner & Full-Stack Engineer at **GUNDO Health and Food** (Spain, remote), leading an AI multiagent engine in production on **Google Cloud** and **AWS**, plus the web and mobile apps (React, Next.js, React Native) on top of it.
 
 - 🔭 Technical lead for the **Fitness** vertical of a white-label B2B2C platform used by Uvesco, Ametller Origen, DIA, and CrossFit
 - 🧠 Designed a multiagent training/nutrition engine (**Mastra**, **Vertex AI**, **OpenAI**) with event-driven processing over Google Cloud Pub/Sub
@@ -75,17 +75,24 @@ Full-Stack Engineer with two years leading product at **GUNDO Health and Food** 
 
 ---
 
-### Featured projects
+### Featured work
 
-| Project | Description | Stack |
-|---|---|---|
-| **[Shelvora](https://github.com/Ricardoarsv/Shelvora)** — *Every story, on your shelf* | Offline-first Android web-novel reader: content-hashed multi-source downloads, hybrid on-device translation (ML Kit), 7-site engine, remote integrity gate. Plan-first dev orchestrated by AI across 16 phases. | React Native · New Architecture · Hermes · Expo · ML Kit · Gradle |
-| **HandleMinder + HandleCost** | Personal finance manager with real-time statistics. | React · Vite · Tailwind · FastAPI · JWT |
-| **NutriChatAI** | AI-powered nutrition chatbot (LLM integration). | LLM · Node · React |
-| **DineFlow** | End-to-end restaurant management with real-time QR menus. | Node · Express · Firebase · React |
-| **[Portfolio 3D](https://rickdev.tech)** | Interactive 3D developer portfolio. | React · Three.js |
+**[Shelvora](https://github.com/Ricardoarsv/Shelvora)** — *Every story, on your shelf.* Offline-first Android web-novel reader: content-hashed multi-source downloads, hybrid on-device translation (ML Kit), 7-site engine, remote integrity gate. Plan-first dev orchestrated by AI across 16 phases.
+`React Native` · `New Architecture` · `Hermes` · `Expo` · `ML Kit` · `Gradle`
 
-</div>
+**Rival** — gym lifting app with a competitive ranked ladder (private repo, built with a collaborator). Log the Big 3 — Squat, Bench, Deadlift — earn ELO from your Wilks score, and climb an 8-tier ladder across seasons. I'm the primary contributor (6 merged PRs, ~94% of contribution activity), including the PR that introduced the AI-first, spec-driven development architecture the whole codebase now runs on.
+`Expo` · `React Native` · `Hono` · `Drizzle ORM` · `PostgreSQL` · `BetterAuth` · `RevenueCat` · `Turborepo`
+
+<p align="center"><img src="./profile/rival/rival-ladder.svg" alt="Rival rank ladder — Iron to Radiant" width="720"/></p>
+
+---
+
+### AI products I'm building (private repos, in active development)
+
+- **InkLens** — AR tattoo preview app: 3D designs rendered live on your own skin via on-device body tracking (MediaPipe), no server upload of your photo unless you opt in. Next.js 14, Three.js / React Three Fiber, Turborepo monorepo, Stripe, Cloudflare R2, Sentry/PostHog.
+- **Atelierum AI** — turns a photo of a garment into a ready-to-cut sewing pattern (SVG/DXF/PDF) using Gemini Vision + computer vision for measurement estimation. Cuts a 2–4 hour manual task down to ~20 seconds. Next.js + FastAPI, 130+ passing tests.
+- **TestMind** — mobile personality/trivia quiz app monetized with AdMob (banner, interstitial, rewarded), built with Expo Router and Reanimated.
+- **chunk-learner** — language-learning app built around spaced "chunks" with AI-driven voice conversation practice. Expo + TypeScript.
 
 ---
 
@@ -93,14 +100,16 @@ Full-Stack Engineer with two years leading product at **GUNDO Health and Food** 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ricardoarsv&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ricardoarsv&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165" src="./profile/stats.svg"/>
+<img height="165" src="./profile/top-langs.svg"/>
 
-<img src="https://streak-stats.demolab.com?user=Ricardoarsv&theme=tokyonight&hide_border=true" />
+<img src="./profile/streak.svg" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ricardoarsv&theme=tokyonight&no-frame=true&row=1&column=6" />
+<img src="./profile/trophy.svg" />
 
 </div>
+
+<sub>Cards above are generated by a GitHub Actions workflow in this repo (<code>.github/workflows/update-profile-cards.yml</code>) and committed as static SVGs — no dependency on third-party demo servers, so they don't go down.</sub>
 
 ---
 
@@ -108,6 +117,6 @@ Full-Stack Engineer with two years leading product at **GUNDO Health and Food** 
 
 📫 **Let's talk:** [ricardoarsv.2004@gmail.com](mailto:ricardoarsv.2004@gmail.com) · [LinkedIn](https://linkedin.com/in/ricardoarsv) · [rickdev.tech](https://rickdev.tech)
 
-![Visitor count](https://visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FRicardoarsv&labelColor=%23697689&countColor=%23263759&style=flat)
+![Visitor count](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FRicardoarsv&labelColor=%23697689&countColor=%23263759&style=flat)
 
 </div>
