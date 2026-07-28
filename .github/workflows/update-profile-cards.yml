@@ -43,14 +43,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate profile trophy
+        continue-on-error: true
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
           file: profile/trophy.svg
           theme: flat
-          cols: 6
-          rows: 1
+          max-cols: 6
+          max-rows: 1
 
       - name: Commit cards
         run: |
