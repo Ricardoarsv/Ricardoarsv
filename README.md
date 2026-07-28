@@ -18,12 +18,12 @@
 
 Full-Stack Engineer with **3+ years of experience** building production software end to end. Currently Product Owner & Full-Stack Engineer at **GUNDO Health and Food** (Spain, remote), leading an AI multiagent engine in production on **Google Cloud** and **AWS**, plus the web and mobile apps (React, Next.js, React Native) on top of it.
 
-- 🔭 Technical lead for the **Fitness** vertical of a white-label B2B2C platform used by Uvesco, Ametller Origen, DIA, and CrossFit
+- 🔭 Technical lead for the **Fitness** vertical of a white-label B2B2C platform used by Uvesco, Ametller Origen and DIA.
 - 🧠 Designed a multiagent training/nutrition engine (**Mastra**, **Vertex AI**, **OpenAI**) with event-driven processing over Google Cloud Pub/Sub
 - 🏆 Built **GENIE**, a personalized nutrition engine (genetic + microbiome data) — winner of the European **DRG4FOOD** grant (€300,000), with ADN Institut (Spain) and i3S (Portugal)
 - 📸 Built a computer-vision dish scanner: ingredient recognition and macro calculation from photos
 - 🔐 Evolved the engine to a multi-tenant architecture and hardened API security (CORS, JWT, App Check)
-- 🌱 Currently studying Ingeniería de Sistemas at UNAD (Colombia)
+- 🌱 Currently studying System Engineering at UNAD (Colombia)
 
 ---
 
