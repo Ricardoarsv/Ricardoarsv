@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ricardo Arcesio Villanueva Montenegro&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 568, Total PRs: 28, Total Issues: 3, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 566, Total PRs: 28, Total Issues: 3, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 182.8616295253957;
+        stroke-dashoffset: 182.90985411979136;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >568</text>
+      >566</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
